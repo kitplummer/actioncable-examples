@@ -14,8 +14,15 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.0'
 
+gem 'binnacle', '~> 0.4.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-binnacle', '~> 0.1.7'
+end
+
 group :development, :test do
   gem 'byebug'
+  gem 'dotenv-rails'
 end
 
 group :development do
